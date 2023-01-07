@@ -50,3 +50,7 @@ docker build -t taxi_ingest:v001 .
 
 
  docker build -t taxi_ingest:v001 --user=root --password=root --host=localhost --port=5432 --db=ny_taxi --table_name=yellow_taxi_trips --url=${URL}
+
+
+
+ export GOOGLE_APPLICATION_CREDENTIALS="C:\Users\rhys-\Documents\GitHub\data-engineering-zoomcamp\week_1_basics_n_setup\docker_test\warm-pixel-373703-f5c6f594db95.json"
